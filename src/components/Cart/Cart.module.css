@@ -5,6 +5,8 @@
     max-height: 20rem;
     overflow: auto;
   }
+
+  
   
   .total {
     display: flex;
@@ -12,11 +14,12 @@
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem ;
   }
   
   .actions {
     text-align: right;
+    margin: 0.5rem ;
   }
   
   .actions button {
@@ -44,4 +47,91 @@
     background-color: #8a2b06;
     color: white;
   }
-   
+
+
+
+  
+
+.list {
+  
+  display: flex;
+  justify-content: space-between;
+  margin:  0.5rem; 
+  width: 95%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(138, 133, 133); 
+}
+
+.list h3 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 300;
+  
+}
+
+.name {
+  font-style: italic;
+}
+
+.price {
+  
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+.detail{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.btn{
+  margin-top: 2rem;
+
+}
+
+.first{
+  width: 30%;
+}
+
+
+.btn button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.btn button:hover,
+.btn button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.btn .button--alt {
+  color: #8a2b06;
+}
+
+.btn .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+
+.quantity{
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  
+}
+
+
